@@ -1,0 +1,111 @@
+/* styles.css (or styles.scss) */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  }
+
+  .navbar-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    color: #7d73bd;
+    font-size: 17px;
+  }
+  
+  .nav-item {
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-item a:hover {
+    opacity: 4;
+  }
+
+  @font-face {
+    font-family: 'GABRWFFR';
+    src: local('GABRWFFR'), url(./fonts/gabriel_weiss_friends/GABRWFFR.ttf) format('opentype');
+  }
+
+.logo {
+  font-family: 'GABRWFFR';
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #7d73bd;
+  font-style: none;
+  /* color: #5d5d5d; */
+}
+
+.dot{
+  font-size: 40px;
+}
+
+.dot-1{
+  color: #e91e24;
+}
+
+.dot-2{
+  color: #06b2e7;
+}
+
+.dot-3{
+  color: #fbbd14;
+}
+
+
+.nav-item.active.btn-item {
+  font-weight: bold;
+  opacity: 2;
+
+}
+
+.active-line {
+  position: absolute;
+  bottom: 5px;
+  height: 2px;
+  width: 20px;
+  background-color: #000;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-item .btn-item {
+  background-color: transparent;
+  border: none;
+  color: #7d73bd;
+  text-align: center;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.nav-item .btn-item:hover {
+  opacity: 2;
+}
+
+.btn-item .link{
+  color: #7d73bd;
+}
+
+.btn{
+  border: 1px solid #7d73bd;
+  background-color: transparent;
+  color: #7d73bd;
+  border-radius: 25px; 
+}
+
+.nav-item .btn:hover {
+  color: #4F4499;
+}

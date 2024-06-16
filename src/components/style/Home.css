@@ -1,0 +1,89 @@
+/* styles.css (or styles.scss) */
+
+.home-section {
+    margin-top: 80px;
+    width: 100%;
+    background-color: #fff;
+    height: 800px;
+    z-index: 100;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+  }
+  /* 7D73BE */
+    .home-page{
+      background-color: #7D73BE;
+      border-radius: 25px;
+      width: 96%;
+      padding: 20px 10px;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 80px;
+  }
+
+  .home-dot{
+    font-size: 80px;
+  }
+
+  
+  .home-text {
+    font-style: none;
+    font-size: 16px;
+    line-height: 1.5;
+    flex: 1;
+  }
+
+  .home-description{
+    font-weight: bold;
+  }
+  
+  .home-image {
+    flex: 1;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  .home-image img {
+    width: 80%;
+    max-width: 400px; /* Adjust the maximum width as per your design */
+  }
+
+  @font-face {
+    font-family: 'GABRWFFR';
+    src: local('GABRWFFR'), url(./fonts/gabriel_weiss_friends/GABRWFFR.ttf) format('opentype');
+  }
+
+.font-style {
+  font-family: 'GABRWFFR';
+  font-size: inherit;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-stickers{
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.home-stickers img{
+  width: 200px;
+}
+  
